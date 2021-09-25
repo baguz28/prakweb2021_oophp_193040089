@@ -25,7 +25,6 @@ class Produk{
     }
 
     public function getInfoLengkap(){
-        // Komik : OnePiece | Eiichiro Oda, Tafarglaw D. Water Law (Rp. 50000) - 500 Halaman.
         $str = "{$this->tipe} : {$this->judul} | {$this->getLabel()} (Rp. {$this->harga})";
         if( $this->tipe == "Komik" ) {
             $str .= " - {$this->jmlHalaman} Halaman.";
@@ -50,3 +49,4 @@ $produk2 = new Produk("Arena of Valor", "Tencent Games", "Garena", 30000, 0, 48,
 echo $produk1->getInfoLengkap();
 echo "<br>";
 echo $produk2->getInfoLengkap();
+echo "<br>";
