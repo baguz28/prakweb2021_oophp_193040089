@@ -43,8 +43,8 @@ class CetakInfoProduk {
     }
 }
 
-$produk1 = new Produk("Naruto", "Masashi Kisimoto", "Shōnen Jump", 40000, 350, 0, "komik");
-$produk2 = new Produk("Arena of Valor", "Tencent Games", "Garena", 30000, 0, 48, "game");
+$produk1 = new Produk("Naruto", "Masashi Kisimoto", "Shōnen Jump", 40000, 350, 0, "Komik");
+$produk2 = new Produk("Arena of Valor", "Tencent Games", "Garena", 30000, 0, 48, "Game");
 
 echo $produk1->getInfoLengkap();
 echo "<br>";
